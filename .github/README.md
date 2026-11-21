@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-rds-data`](https://www.npmjs.com/package/@aws-sdk/client-rds-data/v/3.1174.0).
+[`@aws-sdk/client-rds-data`](https://www.npmjs.com/package/@aws-sdk/client-rds-data/v/3.1175.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-rds-data - [https://cloud-sdk-builds.github.io/?sdk=client-rds-data](https://cloud-sdk-builds.github.io/?sdk=client-rds-data)
-- @aws-sdk/client-rds-data v3.1174.0 - [https://cloud-sdk-builds.github.io/?sdk=client-rds-data&version=3.1174.0](https://cloud-sdk-builds.github.io/?sdk=client-rds-data&version=3.1174.0)
+- @aws-sdk/client-rds-data v3.1175.0 - [https://cloud-sdk-builds.github.io/?sdk=client-rds-data&version=3.1175.0](https://cloud-sdk-builds.github.io/?sdk=client-rds-data&version=3.1175.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rds-data@3.1174.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rds-data@3.1175.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-hWG492pY2ARTA9GPUicOUUrNejUY4vp0EAPVuHbwHwfHlpRm/Gdm8Zk0AhOlevxE
+sha384-oVGXmJUKH2QBIiV5FFv+cwJRVh9Xy4w4/sjxGknIxDQuafwAoZYl8+9uN/cvHRMr
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-rds-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rds-data@3.1174.0/index.min.mjs"
+            "@aws-sdk/client-rds-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rds-data@3.1175.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rds-data@3.1174.0/index.min.mjs": "sha384-hWG492pY2ARTA9GPUicOUUrNejUY4vp0EAPVuHbwHwfHlpRm/Gdm8Zk0AhOlevxE"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rds-data@3.1175.0/index.min.mjs": "sha384-oVGXmJUKH2QBIiV5FFv+cwJRVh9Xy4w4/sjxGknIxDQuafwAoZYl8+9uN/cvHRMr"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-rds-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rds-data@3.1174.0/index.min.mjs"
+                        "@aws-sdk/client-rds-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rds-data@3.1175.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rds-data@3.1174.0/index.min.mjs": "sha384-hWG492pY2ARTA9GPUicOUUrNejUY4vp0EAPVuHbwHwfHlpRm/Gdm8Zk0AhOlevxE"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rds-data@3.1175.0/index.min.mjs": "sha384-oVGXmJUKH2QBIiV5FFv+cwJRVh9Xy4w4/sjxGknIxDQuafwAoZYl8+9uN/cvHRMr"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1174.0`)
+* Always pin to a specific version (`@3.1175.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-rds-data/blob/refs/tags/3.1174.0/LICENSE
+https://github.com/cloud-sdk-builds/client-rds-data/blob/refs/tags/3.1175.0/LICENSE
 ```
 
 ---
